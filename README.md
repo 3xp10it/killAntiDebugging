@@ -4,7 +4,7 @@
 # 说明
 设备需要越狱
 
-编译后将killAntiDebugging.dylib 和 killAntiDebugging.plist 一起放到DynamicLibraries插件目录
+编译后将killAntiDebugging.dylib 和 killAntiDebugging.plist 一起放到/Library/MobileSubstrate/DynamicLibraries插件目录
 
 插件被加载后，会hook掉以下方法：
 * sysctl
